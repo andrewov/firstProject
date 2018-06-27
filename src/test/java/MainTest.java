@@ -23,4 +23,9 @@ public class MainTest {
     public void valueMult() {
         assertEquals(125, new Main().valueMult(25, 5));
     }
+
+    @Test
+    public void velueDiv(){
+        assertEquals(1, new Main().valueDiv(7,3));
+    }
 }
