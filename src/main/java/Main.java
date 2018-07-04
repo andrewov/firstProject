@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +11,18 @@ public class Main {
         System.out.println("Факториал: " + valueFact(6));
         System.out.println(valueMirror(123));
         reversArray(array);
+        System.out.println("-----------");
+        bubleSort(array);
+        for(int i = 0; i < array.length; i++){
+            System.out.println(array[i]);
+        }
+
+        System.out.println("------------");
+        System.out.println(parseValueIntToString(256));
+        System.out.println(parseValueDoubleToString(13.56432d));
+        System.out.println(parseValueStringToInt("756"));
+        System.out.println(parseValueStringToDouble("0.456222554"));
+//        System.out.println(smallWord("Кастинг, горим и гаснем!"));
     }
 
     public int valueSumm(int a, int b) {
@@ -97,14 +112,55 @@ public class Main {
     public static void bubleSort(int[] array){
         int tmp = 0;
 
-//        for(int i = 0; i < array.length; i++){
-//            for(int j = 0; j < array.length; j++){
-//                if(array[i] > array[j+1]){
-//                    tmp = array[i];
-//                    array[i] = array[j+1];
-//                    array[j+1] = tmp;
-//                }
-//            }
-//        }
+        for(int i = 0; i < array.length; i++){
+            for(int j = 0; j < array.length - i - 1; j++){
+                if(array[j] > array[j+1]){
+                    tmp = array[j];
+                    array[j] = array[j+1];
+                    array[j+1] = tmp;
+                }
+            }
+        }
     }
+
+    public static String parseValueIntToString(int a){
+        String str = "";
+
+        str = Integer.toString(a);
+
+        return str;
+    }
+
+    public static String parseValueDoubleToString(double a){
+        String str = "";
+
+        str = Double.toString(a);
+
+        return str;
+    }
+
+    public static int parseValueStringToInt(String a){
+        int str = 0;
+
+        str = Integer.parseInt(a);
+
+        return str;
+    }
+
+    public static double parseValueStringToDouble(String a){
+        double str = 0.0d;
+
+        str = Double.parseDouble(a);
+
+        return str;
+    }
+
+//    public static String smallWord(String a){
+//        String[] minWord = a.split("[\\p{Punct}\\s]+");
+//        Set set = new TreeSet<String>(/*(o1, o2) -> o1.length() - o2.length()*/);
+//        set.addAll(Arrays.asList(minWord));
+//
+//        String shortest = (String) set.toArray()[0];
+//        return shortest;
+//    }
 }
