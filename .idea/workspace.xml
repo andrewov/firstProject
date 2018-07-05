@@ -29,19 +29,12 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-78">
-              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="-706">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
                 <element signature="method#valueDivide#0;class#Main#0" expanded="false" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1374#1375#0" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1443#1444#0" expanded="true" />
+                <element signature="e#1662#1663#0" expanded="true" />
+                <element signature="e#1690#1691#0" expanded="true" />
                 <element signature="method#valueEvent#0;class#Main#0" expanded="false" />
                 <element signature="method#valueCoordinates#0;class#Main#0" expanded="false" />
                 <element signature="method#valueMirror#0;class#Main#0" expanded="false" />
@@ -51,7 +44,9 @@
                 <element signature="method#parseValueDoubleToString#0;class#Main#0" expanded="false" />
                 <element signature="method#parseValueStringToInt#0;class#Main#0" expanded="false" />
                 <element signature="method#parseValueStringToDouble#0;class#Main#0" expanded="false" />
-                <marker date="1530659360288" expanded="false" signature="3781:4107" ph="..." />
+                <element signature="method#smallWord#0;class#Main#0" expanded="false" />
+                <element signature="method#countWords#0;class#Main#0" expanded="false" />
+                <element signature="method#deleteOfLastWord#0;class#Main#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -157,7 +152,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -179,10 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +217,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,6 +227,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -451,7 +447,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -461,8 +458,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20204978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5340729" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -471,8 +468,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.503962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -486,11 +483,173 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#50#51#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="method#valueDivide#0;class#Main#0" expanded="false" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="method#valueEvent#0;class#Main#0" expanded="false" />
+            <element signature="method#valueCoordinates#0;class#Main#0" expanded="false" />
+            <element signature="method#valueMirror#0;class#Main#0" expanded="false" />
+            <element signature="method#reversArray#0;class#Main#0" expanded="false" />
+            <element signature="method#bubleSort#0;class#Main#0" expanded="false" />
+            <element signature="method#parseValueIntToString#0;class#Main#0" expanded="false" />
+            <element signature="method#parseValueDoubleToString#0;class#Main#0" expanded="false" />
+            <element signature="method#parseValueStringToInt#0;class#Main#0" expanded="false" />
+            <element signature="method#parseValueStringToDouble#0;class#Main#0" expanded="false" />
+            <element signature="method#smallWord#0;class#Main#0" expanded="false" />
+            <element signature="method#countWords#0;class#Main#0" expanded="false" />
+            <element signature="method#deleteOfLastWord#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#50#51#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="method#valueDivide#0;class#Main#0" expanded="false" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="method#valueEvent#0;class#Main#0" expanded="false" />
+            <element signature="method#valueCoordinates#0;class#Main#0" expanded="false" />
+            <element signature="method#valueMirror#0;class#Main#0" expanded="false" />
+            <element signature="method#reversArray#0;class#Main#0" expanded="false" />
+            <element signature="method#bubleSort#0;class#Main#0" expanded="false" />
+            <element signature="method#parseValueIntToString#0;class#Main#0" expanded="false" />
+            <element signature="method#parseValueDoubleToString#0;class#Main#0" expanded="false" />
+            <element signature="method#parseValueStringToInt#0;class#Main#0" expanded="false" />
+            <element signature="method#parseValueStringToDouble#0;class#Main#0" expanded="false" />
+            <element signature="method#smallWord#0;class#Main#0" expanded="false" />
+            <element signature="method#countWords#0;class#Main#0" expanded="false" />
+            <element signature="method#deleteOfLastWord#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -504,16 +663,9 @@
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
             <element signature="method#valueDivide#0;class#Main#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
             <element signature="method#valueEvent#0;class#Main#0" expanded="false" />
             <element signature="method#valueCoordinates#0;class#Main#0" expanded="false" />
             <element signature="method#valueMirror#0;class#Main#0" expanded="false" />
@@ -523,7 +675,9 @@
             <element signature="method#parseValueDoubleToString#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToInt#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToDouble#0;class#Main#0" expanded="false" />
-            <marker date="1530659360288" expanded="false" signature="3781:4107" ph="..." />
+            <element signature="method#smallWord#0;class#Main#0" expanded="false" />
+            <element signature="method#countWords#0;class#Main#0" expanded="false" />
+            <element signature="method#deleteOfLastWord#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -607,16 +761,9 @@
         <state relative-caret-position="1870">
           <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
             <element signature="method#valueDivide#0;class#Main#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
             <element signature="method#valueEvent#0;class#Main#0" expanded="false" />
             <element signature="method#valueCoordinates#0;class#Main#0" expanded="false" />
             <element signature="method#valueMirror#0;class#Main#0" expanded="false" />
@@ -626,7 +773,9 @@
             <element signature="method#parseValueDoubleToString#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToInt#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToDouble#0;class#Main#0" expanded="false" />
-            <marker date="1530659360288" expanded="false" signature="3781:4107" ph="..." />
+            <element signature="method#smallWord#0;class#Main#0" expanded="false" />
+            <element signature="method#countWords#0;class#Main#0" expanded="false" />
+            <element signature="method#deleteOfLastWord#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -661,16 +810,9 @@
         <state relative-caret-position="289">
           <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
             <element signature="method#valueDivide#0;class#Main#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
             <element signature="method#valueEvent#0;class#Main#0" expanded="false" />
             <element signature="method#valueCoordinates#0;class#Main#0" expanded="false" />
             <element signature="method#valueMirror#0;class#Main#0" expanded="false" />
@@ -680,7 +822,9 @@
             <element signature="method#parseValueDoubleToString#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToInt#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToDouble#0;class#Main#0" expanded="false" />
-            <marker date="1530659360288" expanded="false" signature="3781:4107" ph="..." />
+            <element signature="method#smallWord#0;class#Main#0" expanded="false" />
+            <element signature="method#countWords#0;class#Main#0" expanded="false" />
+            <element signature="method#deleteOfLastWord#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,16 +842,9 @@
         <state relative-caret-position="493">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
             <element signature="method#valueDivide#0;class#Main#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
             <element signature="method#valueEvent#0;class#Main#0" expanded="false" />
             <element signature="method#valueCoordinates#0;class#Main#0" expanded="false" />
             <element signature="method#valueMirror#0;class#Main#0" expanded="false" />
@@ -717,7 +854,9 @@
             <element signature="method#parseValueDoubleToString#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToInt#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToDouble#0;class#Main#0" expanded="false" />
-            <marker date="1530659360288" expanded="false" signature="3781:4107" ph="..." />
+            <element signature="method#smallWord#0;class#Main#0" expanded="false" />
+            <element signature="method#countWords#0;class#Main#0" expanded="false" />
+            <element signature="method#deleteOfLastWord#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,16 +891,9 @@
         <state relative-caret-position="170">
           <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
             <element signature="method#valueDivide#0;class#Main#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
             <element signature="method#valueEvent#0;class#Main#0" expanded="false" />
             <element signature="method#valueCoordinates#0;class#Main#0" expanded="false" />
             <element signature="method#valueMirror#0;class#Main#0" expanded="false" />
@@ -771,7 +903,9 @@
             <element signature="method#parseValueDoubleToString#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToInt#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToDouble#0;class#Main#0" expanded="false" />
-            <marker date="1530659360288" expanded="false" signature="3781:4107" ph="..." />
+            <element signature="method#smallWord#0;class#Main#0" expanded="false" />
+            <element signature="method#countWords#0;class#Main#0" expanded="false" />
+            <element signature="method#deleteOfLastWord#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -860,19 +994,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="-706">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
             <element signature="method#valueDivide#0;class#Main#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
             <element signature="method#valueEvent#0;class#Main#0" expanded="false" />
             <element signature="method#valueCoordinates#0;class#Main#0" expanded="false" />
             <element signature="method#valueMirror#0;class#Main#0" expanded="false" />
@@ -882,7 +1009,9 @@
             <element signature="method#parseValueDoubleToString#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToInt#0;class#Main#0" expanded="false" />
             <element signature="method#parseValueStringToDouble#0;class#Main#0" expanded="false" />
-            <marker date="1530659360288" expanded="false" signature="3781:4107" ph="..." />
+            <element signature="method#smallWord#0;class#Main#0" expanded="false" />
+            <element signature="method#countWords#0;class#Main#0" expanded="false" />
+            <element signature="method#deleteOfLastWord#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
